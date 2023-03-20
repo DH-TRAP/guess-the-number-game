@@ -13,6 +13,7 @@
 *{
     letter-spacing: 0.25vw;
     line-height: 2.2vw;
+    overflow: hidden;
 }
 
 body{
@@ -20,7 +21,6 @@ body{
     padding: 0%;
     border: 0%;
     background-color: black;
-    overflow: hidden;
 }
 
 .header{
