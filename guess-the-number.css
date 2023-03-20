@@ -1,0 +1,144 @@
+@font-face {
+    font-family: ocr-a;
+    src: url(ocr-a-regular.ttf);
+}
+
+*{
+    letter-spacing: 0.25vw;
+    line-height: 2.2vw;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    background-color: black;
+}
+
+.header{
+    margin-top: 6vh;
+    width: 102vw;
+}
+.playAgain{
+    position: absolute;
+    border: 0vw;
+    margin: 72vh 43.8vw;
+    padding: 0.5vw;
+    width: 12vw;
+    border-width: 0.2vw;
+    font-family: ocr-a;
+    text-align: center;
+    background-color:#EF4423;
+    cursor:pointer;
+}
+.hint{
+    position: absolute;
+    font-family:'Segoe UI';
+    font-style: italic;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 0vh;
+    margin: -5vw 0vw;
+    padding: 2vh 0vw;
+    width: 100vw;
+    color: #000;
+    background-color: #FF9526
+}
+
+.middleSec{
+    display: block;
+    margin-top: 5vw;
+    height: 8vw;
+}
+.gameTitle{
+    margin-left: 35vw;
+    width: 30vw;
+    line-height: 5vw;
+    font-family: ocr-a;
+    font-size: 5vw;
+    color: white;
+    text-align: center;
+}
+.reveal{
+    margin-top: 4vw;
+    margin-left: 46vw;
+    height: 2vw;
+    width: 5vw;
+    padding: 1.5vw;
+    font-family: ocr-a;
+    text-align: center;
+    font-size: 4.5vw;
+    color: black;
+    border-radius: 0.3vw;
+    background-color: whitesmoke;
+}
+.line{
+    margin-top: -2.5vw;
+    height: 0.5vw;
+    border: 0vw;
+    background-color: aliceblue;
+}
+
+.bottomSec{
+    margin-top: 16vw;
+    padding-left: 23vw;
+    margin-left: 40VW;
+    font-family:'Segoe UI';
+    font-size: 1.5vw;
+    color: white;
+}
+.guess{
+    resize: none;
+    margin-left: -30.8vw;
+    height: 3vw;
+    width: 6vw;
+    font-family: ocr-a;
+    font-size: 2vw;
+    text-align: center;
+    color: black;
+    border-width: 0vw;
+    border-block-color: transparent;
+    border-bottom: solid #FF9526;
+    background-color:white;
+    outline: none;
+    cursor:auto;
+}
+.check{
+    resize: none;
+    display: block;
+    margin-top: 0.2vw;
+    margin-left: -30.9vw;
+    height: 2.3vw;
+    width: 6.45vw;
+    font-size: 1vw;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+    border: none;
+    outline: none;
+    background-color: #FF9526;
+}
+.status{
+    display: block;
+    margin-top: -10vw;
+}
+.score{
+    margin-top: 3vw;
+}
+.scoreVal{
+    margin-top: -4.4vw;
+    margin-left: 8.5vw;
+}
+.highScoreVal{
+    margin-top: 0vw;
+    margin-left: 16.3vw;
+}
+
+/*
+#4FAF44 
+#F6EB14
+#FF9526
+#EF4423
+#2A3492
+*/
