@@ -23,7 +23,6 @@ body{
 }
 
 .header{
-    overflow:hidden;
     margin-top: 6vh;
     width: 102vw;
 }
@@ -40,7 +39,6 @@ body{
     cursor:pointer;
 }
 .hint{
-    overflow:hidden;
     padding-top: 2.7vw;
     padding-bottom: 0.8vw;
     font-family:'Segoe UI';
@@ -58,7 +56,6 @@ body{
     height: 8vw;
 }
 .gameTitle{
-    overflow:hidden;
     margin-left: 35vw;
     width: 30vw;
     line-height: 5vw;
@@ -81,7 +78,6 @@ body{
     background-color: whitesmoke;
 }
 .line{
-    overflow:hidden;
     margin-top: -2.5vw;
     height: 0.5vw;
     border: 0vw;
