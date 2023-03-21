@@ -58,6 +58,10 @@ document.querySelector('.check').addEventListener('click', function(){
                     changeColor('.status','#4FAF44');
                     changeColor('.reveal','#FFFFFF');
                     changeTextContent('.reveal', guess);
+                                    
+                    if(document.querySelector('.highScoreVal').textContent === '--'){
+                        changeTextContent('.highScoreVal', 0);
+                    }
                     if( score > highScore){
                     highScore = score;
                     changeTextContent('.highScoreVal', highScore);
